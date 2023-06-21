@@ -1,0 +1,97 @@
+.clients{
+    overflow: hidden;
+
+    background-color: #53354a;
+}
+
+.container--clients {
+    padding: 0;
+    margin: 0;
+}
+.clients_item{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.clients_photo{
+    width: 50%;
+    height: 500px;
+    position: relative;
+
+}
+.clients_img{
+    max-width: 920px;
+    width: 100%;
+    height: 500px;
+
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 10;
+}
+.clints_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 120px 0 85px;
+    width: 50%;
+
+}
+
+.clients_text{
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.clients_name{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/*Стили для точек*/
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+
+    position: absolute;
+    bottom: 20%;
+    right: 7%;
+    z-index: auto;
+}
+
+.slick-dots li {
+    margin: 0 5px
+}
+.slick-dots button {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+
+    background: #fff;
+    border-radius: 50%;
+    border: 0;
+
+    font-size: 0;
+    color: transparent;
+    opacity: 0.3;
+
+}
+
+.slick-dots .slick-active button {
+    opacity: 1;
+}
+

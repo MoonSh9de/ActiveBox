@@ -1,0 +1,22 @@
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 90px 0;
+
+}
+.feature_item{
+    padding: 35px 70px;
+    width: 33.33333%;
+    
+    text-align: center;
+}
+.feature_title{
+    padding: 35px 0 30px;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2d3033;
+}
+.feature_txt{
+    line-height: 1.5;
+}

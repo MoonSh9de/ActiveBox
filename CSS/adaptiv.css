@@ -1,0 +1,204 @@
+@media (max-width: 1200px) {
+/* Works */
+
+    .work_item {
+        width: 50%;
+    }
+
+    /* Clients */
+
+
+    .clients_item {
+        height: 100%;
+    }
+    .clients_img {
+        width: 100%;
+    }
+
+    .slick-dots {
+        bottom: 14%;
+        right: 1%;
+        z-index: 1;
+    }
+/* Footer */
+    .footer_inner {
+        padding: 30px 0;
+    }
+    .footer_item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer_item:last-child {
+        padding: 0 130px;
+        margin-bottom: 0;
+    }
+}
+
+
+@media (max-width: 990px) {
+
+/* Header */
+    .header.fixed .header_inner 
+    {
+        padding: 5px 0;
+    }
+    .nav {
+        display: none;
+        flex-direction: column;
+        width: 100vw;
+
+        background-color: #2d304a;
+        border: 1px solid #505369;
+
+        position: absolute;
+        left: -1px;
+        top: 100%;
+    }
+    .nav_link{
+        margin: 15px;
+    }
+    .nav_link:last-child{
+        margin: 15px;
+    }
+
+    .burger {
+        display: block;
+    }
+/* Features */
+    .feature_item {
+        width: 50%;
+    }
+
+    /* Team */
+    .team_item{
+        width: 50%;
+        text-align: center;
+    }
+
+    .team_photo{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .team_about {
+        padding: 0 40px;
+    }
+
+     /* Clients */
+     .clints_content{
+        padding: 0 ;
+    }
+
+     .clients_item {
+        text-align: center;
+     }
+     .clients_photo {
+        width: 100%;
+     }
+     .clients_img {
+        width: 100%;
+        right:0;
+    }
+    .clints_content {
+        width: 100%;
+    }
+
+    .clients_text {
+        margin: 25px 0;
+    }
+
+    .clients_name {
+        margin-bottom: 30px ;
+    }
+
+    .slick-dots {
+        bottom: 1%;
+        right: 23%;
+        z-index: 1;
+    }
+
+}
+
+@media (max-width: 767px) {
+/* intro */
+    .intro {
+        height: auto;
+    }
+    .intro_button {
+        padding-bottom: 100px;
+    }
+
+    .intro_title {
+        padding: 130px 0 30px;
+        font-size: 40px;
+    }
+
+    .intro_subtitle {
+
+        font-size: 20px;
+    }
+/* Features */
+    .feature_item {
+        width: 100%;
+        padding: 35px 100px;
+    }
+/* Works */
+    .work_item {
+        width: 100%;
+    }
+
+/* Team */
+    .team_item {
+        width: 100%;
+    }
+    .team_about {
+        padding: 0 100px;
+    }
+
+
+}
+
+
+@media (max-width: 450px) {
+/* intro */
+    .intro_title {
+        font-size: 32px;
+    }
+
+    .intro_subtitle {
+
+        font-size: 16px;
+    }
+/* Features */
+.feature_item {
+
+    padding: 35px 50px;
+    }
+/* Team */
+    .team_about {
+        padding: 0 50px;
+    }
+
+    /* Clients */
+
+    .clients_photo {
+        height: 300px;
+    }
+
+    .clients_img {
+        height: 100%;
+    }
+    .clients_text {
+        font-size: 30px;
+    }
+
+    .clients_name {
+        font-size: 10px ;
+    }
+
+    /* Footer */
+
+    .footer_item:last-child{
+        padding: 0 50px;
+    }
+
+}

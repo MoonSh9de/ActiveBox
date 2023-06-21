@@ -1,0 +1,60 @@
+.team{
+    margin: 100px 0 70px;
+}
+.team_inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.team_item{
+    width: 25%;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+.team_photo{
+    display: block; 
+    max-width: 100%;
+}
+.team_name{
+    margin: 30px 0 15px 0;
+    font-size: 22px;
+    color:#2d3033;
+
+}
+.team_prof{
+    
+    font-size: 13px;
+    color:#e84545;
+    text-transform: uppercase;
+}
+.team_about{
+    margin: 20px 0;
+
+    line-height: 1.5;
+}
+.team_link{
+    text-decoration: none;
+}
+.fa-brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    padding-top: 10px;
+
+    border: 1px solid #c6cacc;
+
+    transition: color 0.2s linear;
+    transition: background 0.2s linear;
+
+    text-align: center;
+    color: #c6cacc;
+
+}
+.fa-brands:hover{
+    color: #e84545;
+    background-color: #c6cacc;
+}
